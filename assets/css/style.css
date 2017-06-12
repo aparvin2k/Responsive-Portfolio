@@ -249,7 +249,7 @@ footer {
 }
 
 /*For Desktops*/
-@media only screen and (max-width: 980px) {
+@media only screen and (min-width: 768px) and (max-width: 1050px) {
 
 	div#top {
 		width: 90%;
@@ -284,13 +284,13 @@ footer {
 }
 
 /*For tablets*/
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 640px) and (max-width: 768px) {
 	div#top {
 		width: 82%;
 	}
 	 
 	h1 { 
-		width: 30%;
+		width: auto;
 	}
 
 	#wrapper {
@@ -343,7 +343,7 @@ footer {
 	}
 
 	#wrapper {
-		width: 95%;
+		width: 100%;
 		margin: 45px auto 45px auto;
 	}
 
